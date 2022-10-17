@@ -43,7 +43,7 @@ const Buttons = ({ setAll, setBreakfast, setLunch, setShakes }) => {
           }
 
           span {
-            padding: 0 5px;
+            padding: 0 212px;
             font-family: "Poppins", sans-serif;
             font-weight: 600;
             font-size: 1rem;
@@ -58,49 +58,49 @@ const Buttons = ({ setAll, setBreakfast, setLunch, setShakes }) => {
         }
       `}
     >
-      <button
-        onClick={() => {
-          setAll(true);
-          setBreakfast(false);
-          setLunch(false);
-          setShakes(false);
-        }}
-      >
-        <span>All</span>
-      </button>
+{/*       <button */}
+{/*         onClick={() => { */}
+{/*           setAll(true); */}
+{/*           setBreakfast(false); */}
+{/*           setLunch(false); */}
+{/*           setShakes(false); */}
+{/*         }} */}
+{/*       > */}
+{/*         <span>All</span> */}
+{/*       </button> */}
 
-      <button
-        onClick={() => {
-          setBreakfast(true);
-          setAll(false);
-          setLunch(false);
-          setShakes(false);
-        }}
-      >
-        <span>Breakfast</span>
-      </button>
+{/*       <button */}
+{/*         onClick={() => { */}
+{/*           setBreakfast(true); */}
+{/*           setAll(false); */}
+{/*           setLunch(false); */}
+{/*           setShakes(false); */}
+{/*         }} */}
+{/*       > */}
+{/*         <span>Breakfast</span> */}
+{/*       </button> */}
 
-      <button
-        onClick={() => {
-          setLunch(true);
-          setAll(false);
-          setBreakfast(false);
-          setShakes(false);
-        }}
-      >
-        <span>Lunch</span>
-      </button>
+{/*       <button */}
+{/*         onClick={() => { */}
+{/*           setLunch(true); */}
+{/*           setAll(false); */}
+{/*           setBreakfast(false); */}
+{/*           setShakes(false); */}
+{/*         }} */}
+{/*       > */}
+{/*         <span>Lunch</span> */}
+{/*       </button> */}
 
-      <button
-        onClick={() => {
-          setShakes(true);
-          setAll(false);
-          setBreakfast(false);
-          setLunch(false);
-        }}
-      >
-        <span>Shakes</span>
-      </button>
+{/*       <button */}
+{/*         onClick={() => { */}
+{/*           setShakes(true); */}
+{/*           setAll(false); */}
+{/*           setBreakfast(false); */}
+{/*           setLunch(false); */}
+{/*         }} */}
+{/*       > */}
+{/*         <span>Shakes</span> */}
+{/*       </button> */}
     </div>
   );
 };

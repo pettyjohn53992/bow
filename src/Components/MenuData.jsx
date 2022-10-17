@@ -1,10 +1,10 @@
 const menuData = [
   {
     id: 1,
-    title: "buttermilk pancakes",
+    title: "Basic Cut",
     category: "breakfast",
-    price: 15.99,
-    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    price: 100.00,
+    desc: `Whole or sliced backstraps `,
   },
   {
     id: 2,

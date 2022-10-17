@@ -17,7 +17,7 @@ function App() {
     <div
       className="App"
       css={css`
-        background: #f0eff1;
+        background: black;
         height: 100%;
         padding: 70px 0;
       `}
@@ -32,9 +32,9 @@ function App() {
       <MenuItems
         items={MenuData}
         all={all}
-        breakfast={breakfast}
+        /*breakfast={breakfast}
         lunch={lunch}
-        shakes={shakes}
+        shakes={shakes} */
       />
 
       <Global

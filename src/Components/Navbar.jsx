@@ -2,6 +2,7 @@
 /**@jsx jsx */
 import { css, jsx } from "@emotion/react";
 import Buttons from "./Buttons";
+import imgLLC from "../img/LLC.png";
 
 const Navbar = ({ setAll, setBreakfast, setLunch, setShakes }) => {
   const breakpoints = [576, 768, 992, 1200];
@@ -49,7 +50,8 @@ const Navbar = ({ setAll, setBreakfast, setLunch, setShakes }) => {
         }
       `}
     >
-      <h3 className="logo">Exper.</h3>
+      <img src={imgLLC} alt="food burger" style={{ width: '400px', }} />
+
       <Buttons
         className="Buttons"
         setAll={setAll}
